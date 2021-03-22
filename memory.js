@@ -61,6 +61,8 @@ function resetBoard() {
     [firstCard, secondCard] = [null, null];
 }
 
+// Function to congratulate when all card is matching
+
 
 cards.forEach(card => card.addEventListener("click", flipCard));
 

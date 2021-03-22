@@ -40,6 +40,10 @@ h3 {
     margin: 30px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 .memory-game {
     width: 640px;
     height: 600px;
@@ -58,6 +62,7 @@ h3 {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
+    border-radius: 10px;
 }
 
 .game-card:active {
