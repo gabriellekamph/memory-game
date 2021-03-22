@@ -30,6 +30,7 @@ h3 {
 
 .container {
     margin: auto;
+    width: 80vw;
 }
 
 .header {
@@ -42,17 +43,19 @@ img {
 }
 
 .memory-game {
-    width: 640px;
+    width: 70vw;
+    max-width: 640px;
     height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    justify-content: center;
 }
 
 .game-card {
-    width: calc(25% - 10px);
-    height: calc(25% - 0px);
+    width: 150px;
+    height: 150px;
     margin: 5px;
     position: relative;
     box-shadow: 3px 3px 3px #ccc;
